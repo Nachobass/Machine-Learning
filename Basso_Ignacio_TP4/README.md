@@ -5,7 +5,7 @@ This practical work focuses on **unsupervised learning** algorithms, specificall
 
 ## Datasets
 - **Clustering Dataset**: General clustering data (`clustering.csv`)
-- **MNIST Dataset**: Handwritten digits for clustering analysis (`MNIST_dataset.csv`)
+- **MNIST Dataset**: Handwritten digits for clustering analysis (`MNIST_dataset.csv.zip` - needs decompression)
 
 ## Implemented Algorithms
 
@@ -90,8 +90,9 @@ scipy>=1.7.0
 
 ## Usage
 1. Install dependencies: `pip install -r requirements.txt`
-2. Run the main notebook: `jupyter notebook notebooks/Basso_Ignacio_Notebook_TP4.ipynb`
-3. Or import specific algorithms:
+2. **Decompress the MNIST dataset**: Extract `MNIST_dataset.csv` from `data/raw/MNIST_dataset.csv.zip`
+3. Run the main notebook: `jupyter notebook notebooks/Basso_Ignacio_Notebook_TP4.ipynb`
+4. Or import specific algorithms:
 ```python
 from src.kmeans import KMeans
 from src.dbscan import DBSCAN
