@@ -1,0 +1,33 @@
+# TP4 - Unsupervised Learning and Clustering
+# Core numerical computing
+numpy>=1.21.0
+
+# Data manipulation and analysis
+pandas>=1.3.0
+
+# Plotting and visualization
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Scientific computing and statistics
+scipy>=1.7.0
+
+# Machine learning utilities (for comparison and metrics)
+scikit-learn>=1.0.0
+
+# PyTorch for VAE implementation
+torch>=1.12.0
+torchvision>=0.13.0
+
+# Progress bars
+tqdm>=4.62.0
+
+# Jupyter notebook support
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Optional: advanced plotting
+plotly>=5.0.0
+
+# Note: For CUDA support with PyTorch:
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118

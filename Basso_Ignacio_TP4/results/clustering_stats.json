@@ -1,0 +1,8 @@
+{
+    "eps": 0.09575567508110401,
+    "min_points": 17,
+    "n_clusters": 15,
+    "n_noise": 949,
+    "n_samples": 5000,
+    "n_features": 2
+}

@@ -1,0 +1,11 @@
+{
+    "k": 3,
+    "final_distance": 3867.3734843475304,
+    "n_samples": 5000,
+    "n_features": 2,
+    "cluster_sizes": [
+        1624,
+        1744,
+        1632
+    ]
+}
